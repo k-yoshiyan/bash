@@ -1,0 +1,17 @@
+export PS1="[\u@\h \W]\\$ "
+export PATH=$PATH:/Users/koji/bin
+alias YL='ruby ~/bin/YamarecoList.rb' 
+alias YR='ruby ~/bin/YamarecoRec.rb' 
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s[0-9]+\s//;s/[;&|]\s*alert$//'\'')"' 
+alias egrep='egrep --color=auto' 
+alias fgrep='fgrep --color=auto' 
+alias gne='geeknote edit' 
+alias gnf='geeknote find' 
+alias gnfc='geeknote find --count 20' 
+alias gns='geeknote show' 
+alias grep='grep --color=auto' 
+alias his='history | grep' 
+alias l='ls -CF' 
+alias la='ls -A' 
+alias ll='ls -alF' 
+alias ls='ls -F'
